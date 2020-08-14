@@ -1,8 +1,9 @@
 import React, { FunctionComponent } from 'react';
+import { FeedPage } from '../../../pages/Feed'
 
 // Component
 const App: FunctionComponent = () => (
-  <div>Hello Mars.</div>
+  <FeedPage />
 )
 
 // Display Name

@@ -1,5 +1,5 @@
 import { FeedReducer } from '../../pages/Feed'
 
-const rootReducer = { feed: FeedReducer }
+const rootReducer = { Feed: FeedReducer }
 
 export default rootReducer
