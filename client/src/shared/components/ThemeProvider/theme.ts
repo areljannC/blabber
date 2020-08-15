@@ -10,9 +10,9 @@ export const theme = {
     gray: 'hsl(210, 50%, 60%)',
   },
   fonts: {
-    body: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
-    heading: 'inherit',
-    monospace: 'Menlo, monospace',
+    body: `'Karla', sans-serif`,
+    heading: `'Rubik', sans-serif`,
+    monospace: `'Space Mono', monospace`,
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
   fontWeights: {

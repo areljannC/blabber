@@ -14,8 +14,13 @@ const ThemeProvider: FC = ({ children }: Props) => (
   <>
     <Global
       styles={css`
+        @import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@500&family=Space+Mono&display=swap');
+
         ${emotionReset}
+
         *, *::after, *::before {
+          margin: 0;
+          padding: 0;
           box-sizing: border-box;
         }
       `}
