@@ -1,6 +1,8 @@
 import React, { FC, ReactNode } from 'react'
+import { Global, css } from '@emotion/core'
 import { ThemeProvider as EmotionThemeProvider } from 'emotion-theming'
-import theme from './theme'
+import emotionReset from 'emotion-reset'
+import { theme } from './theme'
 
 /* Prop Types */
 interface Props {
@@ -8,7 +10,19 @@ interface Props {
 }
 
 /* Component */
-const ThemeProvider: FC = ({ children }: Props) => <EmotionThemeProvider theme={theme}>{children}</EmotionThemeProvider>
+const ThemeProvider: FC = ({ children }: Props) => (
+  <>
+    <Global
+      styles={css`
+        ${emotionReset}
+        *, *::after, *::before {
+          box-sizing: border-box;
+        }
+      `}
+    />
+    <EmotionThemeProvider theme={theme}>{children}</EmotionThemeProvider>
+  </>
+)
 
 /* Display Names */
 ThemeProvider.displayName = `ThemeProvider`

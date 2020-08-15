@@ -13,6 +13,7 @@
     "@types/testing-library__jest-dom": "^5.9.2",
     "@types/testing-library__react": "^10.2.0",
     "cra-template-typescript": "1.0.3",
+    "emotion-reset": "^2.0.7",
     "emotion-theming": "^10.0.27",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
