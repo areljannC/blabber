@@ -1,12 +1,10 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react'
 import { FeedPage } from '../../../pages/Feed'
 
 // Component
-const App: FunctionComponent = () => (
-  <FeedPage />
-)
+const App: FC = () => <FeedPage />
 
 // Display Name
 App.displayName = `App`
 
-export default App;
+export default App
