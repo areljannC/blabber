@@ -6,9 +6,8 @@ import { device } from '../../../../shared/constants'
 const Splash: FC = () => (
   <SplashContainer>
     <Title>blabber.haus</Title>
-    <Subtitle>
-      A social media for those that want to talk non-sense. <br /> Coming soon...
-    </Subtitle>
+    <Subtitle>A social media for those that want to talk non-sense.</Subtitle>
+    <Subtitle>Coming soon...</Subtitle>
   </SplashContainer>
 )
 
