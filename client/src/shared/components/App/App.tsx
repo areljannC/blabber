@@ -1,11 +1,9 @@
 import React, { FC } from 'react'
 import styled from '../Styled'
-import { FeedPage } from '../../../pages/Feed'
 
 // Component
 const App: FC = () => (
   <AppContainer>
-    <FeedPage />
   </AppContainer>
 )
 
@@ -14,7 +12,7 @@ const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: auto;
-  background-color: ${props => props.theme.colors.background};
+  background-color: ${props => props.theme.colors.primary};
 `
 
 // Display Name
